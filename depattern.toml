@@ -1,0 +1,50 @@
+[brand]
+name = "580 Digital Infrastructure"
+voice = "direct, specific, local, no hype, active voice, short paragraphs"
+
+[llm]
+provider = "gemini"
+model = "gemini-2.5-flash"
+# api_key_env = "GEMINI_API_KEY"
+
+[rules]
+banned_phrases = [
+    "furthermore",
+    "in conclusion",
+    "moreover",
+    "it is important to note",
+    "delve",
+    "tapestry",
+    "beacon",
+    "testament",
+    "game-changer",
+    "seamless",
+    "unlocked",
+    "not only",
+    "journey",
+    "elevate",
+    "revolutionize",
+    "cutting-edge"
+]
+vague_intensifiers = [
+    "very",
+    "extremely",
+    "incredibly",
+    "highly",
+    "significantly",
+    "absolutely",
+    "totally"
+]
+abstract_nouns = [
+    "synergy",
+    "solutions",
+    "paradigm",
+    "ecosystem",
+    "alignment",
+    "optimization",
+    "innovation"
+]
+sentence_length_variance_threshold = 12.0
+banned_transition_density_threshold = 0.02
+answer_first_word_count_min = 50
+answer_first_word_count_max = 80
