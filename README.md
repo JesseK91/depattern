@@ -6,6 +6,8 @@
 
 It is not an AI detector. It does not guess who wrote the text. It measures visible writing patterns: flat sentence rhythm, repeated openers, vague intensifiers, abstract nouns, transition scaffolding, and weak answer-first structure.
 
+![DePattern CLI demo](docs/assets/depattern-demo.svg)
+
 ```bash
 depattern analyze examples/raw.md
 depattern suggest examples/raw.md
